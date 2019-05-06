@@ -4,10 +4,10 @@ Azure is a cloud computing platform from Microsoft. It offers solutions for comp
 
 You will produce a program that can take in a link to any image and display an image with the emotion of the detected faces overlaid on the image.  
 
-![](Images/group_1.jpeg)
-![](Images/group_2.jpeg)
-![](Images/individual_1.jpeg)
-![](Images/group_3.jpeg)
+<img src="Images/group_1.jpeg" width="49%" />
+<img src="Images/group_2.jpeg" width="49%" />
+<img src="Images/individual_1.jpeg" width="49%" />
+<img src="Images/group_3.jpeg" width="49%" />
 
 ## Setup
 

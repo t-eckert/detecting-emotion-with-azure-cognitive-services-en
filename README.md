@@ -4,10 +4,16 @@ Azure is a cloud computing platform from Microsoft. It offers solutions for comp
 
 You will produce a program that can take in a link to any image and display an image with the emotion of the detected faces overlaid on the image.  
 
-<img src="Images/group_1.jpeg" width="40%" />
-<img src="Images/group_2.jpeg" width="40%" />
-<img src="Images/individual_1.jpeg" width="40%" />
-<img src="Images/group_3.jpeg" width="40%" />
+<table>
+    <tr>
+        <td><img src="Images/group_1.jpeg"/></td>
+        <td><img src="Images/group_2.jpeg"/></td>
+    </tr>
+    <tr>
+        <td><img src="Images/individual_1.jpeg"/></td>
+        <td><img src="Images/group_3.jpeg"/></td>
+    </tr>
+</table>
 
 ## Setup
 
@@ -66,8 +72,30 @@ Copy **your** `Endpoint` and `API Key` to the file, replacing the `<ENDPOINT>`, 
 }
 ```
 
-> Note: In general it is a bad idea to share these keys widely. I am fine doing it with this copy as the keys will have expired by the time anyone is reading this. 
+> Note: In general it is a bad idea to share these keys widely. They should be treated like passwords. I am fine doing it with these as the keys will have expired by the time anyone is reading this. 
 
 10. Click `Save File`. This will bring you back to the main page of your notebook.
 11. Now click on the file `detect_emotion_with_azure_cognitive_services_en.ipynb`.
 12. Follow the instructions in this file to experiment with the lab!
+
+## Troubleshooting
+
+### Invalid syntax when 6th code cell is run.
+
+**Issue**:  
+
+![](Images/issue_1.png)
+
+``` bash
+  File "<ipython-input-6-bf6f427f9174>", line 16
+    """))
+         
+^
+SyntaxError: invalid syntax
+```
+
+**Cause**: This cell uses `formatted strings`, a feature introduced in Python 3.6. The syntax is invalid for versions prior to 3.6. The notebook is probably running one of these versions.
+
+**Solution**: In the toolbar at the top of the notebook, select `Kernel`. In the dropdown menu, select `Change kernel >`. In the submenu select `Python 3.6`.
+
+

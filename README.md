@@ -1,5 +1,8 @@
 # Detecting Emotion With Azure Cognitive Services
 
+🗄[GitHub](https://github.com/t-eckert/detecting-emotion-with-azure-cognitive-services-en)  
+📓[Azure Notebook](https://notebooks.azure.com/t-eckert/projects/acs-emotion)
+
 Azure is a cloud computing platform from Microsoft. It offers solutions for compute, Internet of things, and machine learning. This lab will take you through using a trained machine learning model for detecting faces in an image and their emotion.  
 
 You will produce a program that can take in a link to any image and display an image with the emotion of the detected faces overlaid on the image.  
@@ -25,13 +28,16 @@ You will produce a program that can take in a link to any image and display an i
 ![](./Images/setup_instruction_1.png)
 
 If you create a new account, you will be given a set of instructions. You can use your own email address. You will not need a credit card. This is a free service.  
+
 2. Click the `Clone` button at the top of the page: 
 
 ![](./Images/setup_instruction_2.png)
 
-In the window that appears, click `Clone` again. 
-3. After cloning you will be taken to your own copy of the lab.
-4. In a new tab, go to [Try Azure Cognitive Services](https://azure.microsoft.com/en-us/try/cognitive-services/). In the Face row, click the `Get API Key` button. 
+In the window that appears, click `Clone` again.  
+
+3. After cloning you will be taken to your own copy of the lab.  
+
+4. In a new tab, go to [Try Azure Cognitive Services](https://azure.microsoft.com/en-us/try/cognitive-services/). In the Face row, click the `Get API Key` button.  
 
 ![](./Images/setup_instruction_4.png)
 
@@ -45,7 +51,7 @@ In the window that appears, click `Clone` again.
 
 7. Return to your clone of the lab in the original tab. Click the `+` button to add a file to the lab: 
 
-![](./Images/setup_instructions_7.png)
+![](./Images/setup_instruction_7.png)
 
 8. Select `Blank file` from the dropdown and name the new file `config.json`.
 9. Click on the file and in the toolbar above the document, on the left, click `Edit File`. Copy the following text into this file: 

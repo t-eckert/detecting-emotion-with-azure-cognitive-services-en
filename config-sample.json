@@ -1,4 +1,7 @@
 {
-    "key1": "<KEY>",
-    "key2": "<KEY>"
+    "endpoint": "<ENDPOINT>",
+    "keys": [
+        "<API-KEY-1>",
+        "<API-KEY-2>"
+    ]
 }

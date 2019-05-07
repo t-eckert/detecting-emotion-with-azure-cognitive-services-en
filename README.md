@@ -46,10 +46,10 @@ In the window that appears, click `Clone` again.
 
 ```json
 {
-    "endpoint": <ENDPOINT>,
+    "endpoint": "<ENDPOINT>",
     "keys": [
-        <API-KEY-1>,
-        <API-KEY-2>
+        "<API-KEY-1>",
+        "<API-KEY-2>"
     ]
 }
 ```
